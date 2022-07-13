@@ -13,14 +13,16 @@ navToggle.addEventListener('click', function(){
     // console.log(links.classList.contains('random'));
     // console.log(links.classList.contains('links'));
  
-    Long way - using add and remove
-    if(links.classList.contains('show-links')){
-        links.classList.remove('show-links');
-    }
-    else{
-        links.classList.add('show-links')
-    }
- 
+    // Long way - using add and remove
+    // if(links.classList.contains('show-links')){
+    //     links.classList.remove('show-links');
+    // }
+    // else{
+    //     links.classList.add('show-links')
+    // }
+
+    //Short Way - using toggle
+    links.classList.toggle('show-links')
 
 })
 
